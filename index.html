@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css"
+        integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Business Landing Page</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="header">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Business Name</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- home page -->
+    <div id="home">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <h1>BUSINESS LANDING PAGE</h1>
+                </div>
+                <div class="right">
+                    <img src="./images/Computer-PNG.png" alt="image not found">
+                </div>
+                <div>
+                    <i class="fa fa-arrow-down fa-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about section -->
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="about-section">
+                <div class="about-col-1">
+                    <img src="images/aboutus.jpg" alt="image not found">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quidem odio tenetur
+                        reprehenderit assumenda temporibus, adipisci, asperiores tempore maxime earum sapiente totam
+                        aperiam
+                        blanditiis aut obcaecati ullam ducimus doloremque nam!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptate molestiae possimus
+                        odio fugiat, obcaecati aperiam totam doloribus dignissimos ullam tenetur ea nihil, et, ex rerum
+                        quibusdam beatae rem? Aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet reiciendis dolore est minima harum, fugiat voluptate at molestiae ea ad, sint sed iusto
+                        atque fugit id voluptatibus accusantium, quaerat in. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Nostrum fuga similique recusandae vitae. Doloremque adipisci optio ipsum natus
+                        distinctio aspernatur, itaque, voluptas officiis, at ex illo asperiores vel. Repellendus,
+                        necessitatibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">OUR SERVICES</h1>
+            <div class="service-list">
+                <div>
+                    <span>Service 1</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus facere adipisci quos
+                        rem iure, debitis blanditiis ducimus ullam illum ipsa fugit incidunt in enim, veniam
+                        laudantium perspiciatis laboriosam id! Consequuntur.</p>
+                </div>
+                <div>
+                    <span>Service 2</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus facere adipisci quos
+                        rem iure, debitis blanditiis ducimus ullam illum ipsa fugit incidunt in enim, veniam
+                        laudantium perspiciatis laboriosam id! Consequuntur.</p>
+                </div>
+                <div>
+                    <span>Service 3</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus facere adipisci quos
+                        rem iure, debitis blanditiis ducimus ullam illum ipsa fugit incidunt in enim, veniam
+                        laudantium perspiciatis laboriosam id! Consequuntur.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">CONTACT US</h1>
+            <form id="form">
+                <input type="text" placeholder="First Name" id="fname" required><br>
+                <input type="text" placeholder="Last Name" id="lname" required><br>
+                <input type="email" placeholder="Email Address" id="email" required><br>
+                <input type="text" placeholder="Reason for Contacting" id="reason" required><br>
+                <button type="submit" value="submit" class="btn" onclick="submitForm()">Submit</button>
+            </form>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
